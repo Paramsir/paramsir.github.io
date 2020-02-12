@@ -13,31 +13,31 @@
 
 ## Install OpenJDK8
 -------------------
-`sudo add-apt-repository ppa:openjdk-r/ppa
-sudo apt-get update
-sudo apt-get install openjdk-8-jdk
-sudo update-alternatives --config java   
-sudo update-alternatives --config javac` 
+`sudo add-apt-repository ppa:openjdk-r/ppa`  <br/>
+`sudo apt-get update ` <br/>
+`sudo apt-get install openjdk-8-jdk`  <br/>
+`sudo update-alternatives --config java`    <br/>
+`sudo update-alternatives --config javac` 
 
 ## installing git and repo
 --------------------------
-`sudo apt-get install git
-sudo apt-get install repo`
+`sudo apt-get install git`  <br/>
+`sudo apt-get install repo`
 
 ## configure git
 ---------------
-`git config --global user.email "myemail@email.com" 
-git config --global user.name "username" `        
+`git config --global user.email "myemail@email.com"`  <br/>
+`git config --global user.name "username" `      
 
-for e.g. -
-git config --global user.email "paramsir@gmail.com"
+### for e.g. - <br/>
+git config --global user.email "paramsir@gmail.com"  <br/>
 git config --global user.name "paramsir"  
 
 
 ---------------------------------------------------------------------
 ### To use this manifest repo, the 'repo' tool must be installed first.
 ---------------------------------------------------------------------
-`$: mkdir ~/bin
-$: curl https://storage.googleapis.com/git-repo-downloads/repo  > ~/bin/repo
-$: chmod a+x ~/bin/repo
-$: export PATH=${PATH}:~/bin`
+`$: mkdir ~/bin  ` <br/>
+`$: curl https://storage.googleapis.com/git-repo-downloads/repo  > ~/bin/repo `  <br/>
+`$: chmod a+x ~/bin/repo`   <br/>
+`$: export PATH=${PATH}:~/bin`   <br/>
